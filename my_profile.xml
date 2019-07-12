@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/profile_pic"
+        android:padding="10dp"
+        android:background="@drawable/roundbutton"/>
+    <TextView
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benmessabih Toufik"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/track"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track :  Android"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/country"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country :  Algeria"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/email"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :  t.benmessabih@esi-sba.dz"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/phone_number"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number :  +21379125549"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/slack_username"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slack Username :  Benmessabih Toufik"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
